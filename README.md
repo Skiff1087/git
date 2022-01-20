@@ -9,3 +9,7 @@
 - git restore
 - git reset
 - git checkout
+- git branch
+- git merge
+- git remote
+- git push
