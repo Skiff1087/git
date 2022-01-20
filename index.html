@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+  <!-- Подключаем normalize.css -->
+  <link rel="stylesheet" href="libs/normalize.css/normalize.css">
+  <!-- Подключаем шрифты Roboto и Roboto Slab c сервиса google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+  <!-- Подключаем иконочный шрифт fontawesome -->
+  <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Подключаем наш основной стиль, с которым будем работать -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>GRID-TEMPLATE</title>
+</head>
+
+<body>
+
+<header class="header"><!-- добавить как заготовку для backend: style="background-image: url(assets/img/img-header.png);"-->
+  <div class="header-content">
+    <div class="header-content__container">
+      <h1 class="header-content__title">WE ARE REAL WEB-DEVELOPERS</h1>
+      <div class="header-content__actions">
+        <a class="btn btn--light" href="">Learn more</a>
+        <a class="btn btn--light" href="">Get started</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-menu">
+    <div class="header-menu__container">
+      <div class="header-logo">
+        <a class="header-logo__link" href="">
+          <span class="header-logo__accent">SITE</span>LOGO
+        </a>
+      </div>
+
+      <nav class="header-navbar">
+        <div class="header-navbar__btn">
+          <span class="header-navbar__btn-row"></span>
+          <span class="header-navbar__btn-row"></span>
+          <span class="header-navbar__btn-row"></span>
+        </div>
+
+        <ul class="header-navbar__list">
+          <li class="header-navbar__item">
+            <a class="header-navbar__link" href="">Home</a>
+          </li>
+          <li class="header-navbar__item">
+            <a class="header-navbar__link" href="">About</a>
+          </li>
+          <li class="header-navbar__item">
+            <a class="header-navbar__link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="header-overlay"></div><!-- добавить как заготовку для backend: style="background-color: #2d3651; opacity: 0.8;"-->
+</header>
+
+<main>
+
+  <section class="skills">
+    <div class="skills__container">
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">HTML</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-html.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">CSS</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-css.png);"></div>
+        <!-- добавить как заготовку для backend: style="background-color: #2d3651; opacity: 0.8;"-->
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">Markup</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-markup.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">Web-Design</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-webdesign.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">Quality Assurance</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-qa.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">Codding</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-codding.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">Adaptability</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-adaptability.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">PHP</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-php.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+      <article class="skill-item">
+        <h3 class="skill-item__title"><a class="skill-item__link" href="">SEO</a></h3>
+        <div class="skill-item__image" style="background-image: url(assets/img/img-seo.png);"></div>
+        <div class="skill-item__overlay"></div>
+      </article>
+    </div>
+    <div class="skills__actions">
+      <a class="btn btn--primary" href="">View all skills...</a>
+    </div>
+  </section>
+
+  <!--  <div>ABOUT</div>-->
+  <!--  <div>FORM</div>-->
+  <!--  <div>POSTS</div>-->
+</main>
+
+<!--<footer>FOOTER</footer>-->
+
+<!-- Подключаем библиотеку jquery, необходимую для работы нашего основного скрипта -->
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<!-- Подключаем наш основной скрипт, с которым будем работать -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
